@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #020504; */
+    color: rgb(252, 249, 249);
+    /* display:flex; */
+    height: 30vh;
+    background-image: url('back5.jpg');
+    background-size: cover;
+    position: sticky;
+
+}
+
+nav {
+    height: auto;
+}
+
+.name {
+    position: relative;
+    top: 10vh;
+    display: inline-block;
+    color: #a43c0c;
+
+    font-size: 10vh;
+}
+
+
+.photo {
+
+    position: absolute;
+    left: 40vw;
+    top: 5vh;
+}
+
+.top {
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.option {
+    display: flex;
+    /* justify-self: right; */
+    padding: 3vh;
+    column-gap: 5vh;
+    height: 20vh;
+    align-items: center;
+    margin: 0;
+    font-size: larger;
+
+
+}
+
+.option p a {
+    text-decoration: none;
+}
+
+
+.b1 {
+    border: 2px solid yellowgreen;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: #eac8a5;
+    text-decoration: none;
+
+}
+
+.about {
+    /* background-color: greenyellow; */
+    color: black;
+    padding: 50px;
+    height: 88vh;
+    background-image: url('back6.jpg');
+    background-size: cover;
+
+
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+
+#xyz {
+    font-size: x-large;
+    text-align: center;
+}
+
+#xyz1 {
+    text-align: center;
+}
+
+.arch {
+    background-image: url('back4.jpg');
+    background-size: cover;
+}
+
+#Achievement {
+    /* background-color: #1dd7a8; */
+
+    color: rgb(2, 3, 3);
+    display: grid;
+    grid-row-gap: 3vh;
+    font-size: larger;
+    font-weight: 200;
+    justify-content: center;
+    list-style: none;
+    height: 62vh;
+
+
+}
+
+/* div{
+    position: relative;
+    top: 6vh;
+} */
+ul li {
+    color: black;
+    background-color: rgb(89, 200, 34);
+    width: fit-content;
+    height: fit-content;
+    margin: 3px;
+    padding: 5px;
+    font-size: larger;
+    border: 1px solid aquamarine;
+    border-radius: 9px;
+    text-align: center;
+
+}
+
+.achieve {
+    padding: 5vh;
+    /* background-color: #1dd7a8; */
+    color: rgb(2, 3, 3);
+    text-align: center;
+}
+
+#Interest {
+    /* background-color: #89e114; */
+    background-image: url('back3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.xyz3 {
+    text-align: center;
+    padding: 5vh;
+}
+
+.xyz4 {
+    display: grid;
+    row-gap: 3vh;
+    font-size: x-large;
+    justify-content: center;
+    height: 66vh;
+
+}
+
+.xyz4 p {
+    background-color: #d9c416;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #d9c416;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#pro {
+    text-align: center;
+}
+
+.final {
+    background-image: url('back1.jpg');
+    background-size: cover;
+    /* background-color: #1ade7f; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Project {
+    background-color: #dedb1a;
+    color: #020504;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 6vh;
+    margin: 3vh;
+    border: 1px solid #dedb1a;
+    border-radius: 12px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    font-size: large;
+    justify-content: space-between;
+    margin: 22px;
+    align-items: center;
+
+
+}
+
+.box2 p {
+    border: 2px solid red;
+    padding: 4px;
+    background-color: #ffbf00;
+    width: fit-content;
+    margin: 2px;
+    border-radius: 12px;
+
+
+}
+
+.skills {
+    background-color: #dedb1a;
+    color: #020504;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 6vh;
+    margin: 3vh;
+    border: 1px solid #dedb1a;
+    border-radius: 12px;
+
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    font-size: large;
+    justify-content: space-between;
+    margin: 22px;
+    align-items: center;
+}
+
+.box3 p {
+    border: 2px solid red;
+    padding: 4px;
+    background-color: #ffbf00;
+    width: fit-content;
+    margin: 2px;
+    border-radius: 12px;
+
+}
+
+#ski {
+    text-align: center;
+}
+
+#ContactMe {
+    background-color: #1ad6bd;
+    color: #ca1744;
+
+}
+
+#contact {
+    text-align: center;
+    padding: 1vh;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: space-between; */
+
+
+}
+
+.foot {
+    text-align: center;
+    font-weight: bold;
+}
